@@ -1,0 +1,88 @@
+T4174 000:018.219   SEGGER J-Link V7.94c Log File
+T4174 000:018.549   DLL Compiled: Jan  3 2024 15:15:42
+T4174 000:018.564   Logging started @ 2024-09-03 12:38
+T4174 000:018.577   Process: C:\Keil_v5\UV4\UV4.exe
+T4174 000:018.595 - 18.591ms
+T4174 000:018.619 JLINK_SetWarnOutHandler(...)
+T4174 000:018.633 - 0.017ms
+T4174 000:018.650 JLINK_OpenEx(...)
+T4174 000:031.654   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T4174 000:032.734   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T4174 000:033.034   Decompressing FW timestamp took 242 us
+T4174 000:039.620   Hardware: V9.60
+T4174 000:039.661   S/N: 69660577
+T4174 000:039.685   OEM: SEGGER
+T4174 000:039.715   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T4174 000:040.796   Bootloader: (Could not read)
+T4174 000:041.827   TELNET listener socket opened on port 19021
+T4174 000:042.144   WEBSRV WEBSRV_Init(): Starting webserver thread(s)
+T4174 000:043.605   WEBSRV Webserver running on local port 19080
+T4174 000:044.065   Looking for J-Link GUI Server exe at: C:\Keil_v5\ARM\Segger\JLinkGUIServer.exe
+T4174 000:044.461   Looking for J-Link GUI Server exe at: C:\Program Files (x86)\SEGGER\JLink_V722b\JLinkGUIServer.exe
+T4174 000:044.581   Forking J-Link GUI Server: C:\Program Files (x86)\SEGGER\JLink_V722b\JLinkGUIServer.exe
+T4174 000:121.931   J-Link GUI Server info: "J-Link GUI server V7.22b "
+T4174 000:122.426   J-Link GUI Server: Connection breakdown.
+T4174 000:122.614 - 103.951ms returns "O.K."
+T4174 000:122.695 JLINK_GetEmuCaps()
+T4174 000:122.728 - 0.029ms returns 0xB9FF7BBF
+T4174 000:122.752 JLINK_TIF_GetAvailable(...)
+T4174 000:123.145 - 0.394ms
+T4174 000:123.192 JLINK_SetErrorOutHandler(...)
+T4174 000:123.218 - 0.028ms
+T4174 000:123.265 JLINK_ExecCommand("ProjectFile = "C:\Users\Z\Desktop\RM\HERO\NEW_LONG_SHOOT_GIMBAL\MDK-ARM\JLinkSettings.ini"", ...). 
+T4174 000:162.000   Ref file found at: C:\Keil_v5\ARM\Segger\JLinkDevices.ref
+T4174 000:162.207   REF file references invalid XML file: C:\Program Files\SEGGER\JLink_V794c\JLinkDevices.xml
+T4174 000:164.513 - 41.247ms returns 0x00
+T4174 000:174.193 JLINK_ExecCommand("Device = STM32F407IGHx", ...). 
+T4174 000:185.173   Device "STM32F407IG" selected.
+T4174 000:186.353 - 12.120ms returns 0x00
+T4174 000:186.397 JLINK_ExecCommand("DisableConnectionTimeout", ...). 
+T4174 000:186.420 - 0.003ms returns 0x01
+T4174 000:186.438 JLINK_GetHardwareVersion()
+T4174 000:186.461 - 0.014ms returns 96000
+T4174 000:186.489 JLINK_GetDLLVersion()
+T4174 000:186.505 - 0.015ms returns 79403
+T4174 000:186.521 JLINK_GetOEMString(...)
+T4174 000:186.539 JLINK_GetFirmwareString(...)
+T4174 000:186.553 - 0.014ms
+T4174 000:211.866 JLINK_GetDLLVersion()
+T4174 000:211.916 - 0.049ms returns 79403
+T4174 000:211.954 JLINK_GetCompileDateTime()
+T4174 000:211.973 - 0.020ms
+T4174 000:222.505 JLINK_GetFirmwareString(...)
+T4174 000:222.539 - 0.033ms
+T4174 000:229.853 JLINK_GetHardwareVersion()
+T4174 000:229.903 - 0.046ms returns 96000
+T4174 000:240.034 JLINK_GetSN()
+T4174 000:240.066 - 0.032ms returns 69660577
+T4174 000:247.548 JLINK_GetOEMString(...)
+T4174 000:263.739 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T4174 000:265.027 - 1.287ms returns 0x00
+T4174 000:265.100 JLINK_HasError()
+T4174 000:265.145 JLINK_SetSpeed(10000)
+T4174 000:265.399 - 0.257ms
+T4174 000:265.457 JLINK_GetId()
+T4174 000:273.914   InitTarget() start
+T4174 000:273.951    J-Link Script File: Executing InitTarget()
+T4174 000:280.957   SWD selected. Executing JTAG -> SWD switching sequence.
+T4174 000:398.387   Error: Failed to initialized DAP.
+T4174 000:413.889   Can not attach to CPU. Trying connect under reset.
+T4174 000:479.198   SWD selected. Executing JTAG -> SWD switching sequence.
+T4174 000:589.489   Error: Failed to initialized DAP.
+T4174 000:599.215   Connecting to CPU via connect under reset failed.
+T4174 000:674.782   InitTarget() end - Took 376ms
+T4174 000:689.611   Connect failed. Resetting via Reset pin and trying again.
+T4174 000:762.711   InitTarget() start
+T4174 000:762.749    J-Link Script File: Executing InitTarget()
+T4174 000:775.511   SWD selected. Executing JTAG -> SWD switching sequence.
+T4174 000:901.028   Error: Failed to initialized DAP.
+T4174 000:920.319   Can not attach to CPU. Trying connect under reset.
+T4174 000:978.680   SWD selected. Executing JTAG -> SWD switching sequence.
+T4174 001:094.060   Error: Failed to initialized DAP.
+T4174 001:106.482   Connecting to CPU via connect under reset failed.
+T4174 001:165.128   InitTarget() end - Took 394ms
+T4174 001:165.178 - 899.719ms returns 0x00000000
+T4174 002:706.278 JLINK_Close()
+T4174 002:719.603 - 13.323ms
+T4174 002:719.634   
+T4174 002:719.650   Closed
